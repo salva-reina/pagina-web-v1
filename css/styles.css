@@ -290,3 +290,78 @@ textarea {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 18px;
 }
+
+input[type="submit"] {
+  display: inline-block;
+  padding: 12px;
+  border: none;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  background: rgba(37, 37, 33, 0.7);
+  margin-bottom: 18px;
+  border-top: 1px solid rgba(37, 37, 33, 0.7);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-top: 5px solid rgba(237, 237, 233, 0.7);
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    width: 48%;
+  }
+  .titulo-patrocinador {
+    font-size: 50px;
+    margin-top: 58px;
+  }
+
+  .subtitulo-patrocinador {
+    font-size: 25px;
+    margin-bottom: 64px;
+    font-weight: 300;
+  }
+  .acerca-de {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header .texto {
+    margin-top: 200px;
+  }
+  header .titulo {
+    font-size: 50px;
+  }
+
+  header .subtitulo {
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  .card {
+    width: 55%;
+  }
+
+  .acerca-de {
+    text-align: center;
+  }
+
+  .titulo-patrocinador {
+    font-size: 50px;
+    margin-top: 68px;
+  }
+
+  .subtitulo-patrocinador {
+    font-size: 25px;
+    margin-bottom: 64px;
+    font-weight: 300;
+  }
+}
+
+input[type="text"],
+input[type="email"] {
+  display: inline-block;
+  width: 100%;
+}
